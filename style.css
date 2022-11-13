@@ -1,0 +1,19 @@
+body{
+        text-align: center;
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/19/662/327/pink-white-blue-paint-splash-paint-splatter-hd-wallpaper-preview.jpg");
+        background-position: center;
+        background-size: cover;
+}
+
+.div{
+    background-color: white;
+    height: 350px;
+    margin: 10px;
+    padding: 15px;
+}
+
+#camera{
+    height: 350px;
+    width: 400px;
+}
+

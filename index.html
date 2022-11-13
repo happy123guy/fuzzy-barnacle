@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Inspire + Art</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+        <img>
+        <h2>Get inspired by the amazing art world!</h2>
+        <hr>
+        <h3>Inspiration wall</h3>
+        <hr>
+        <p>If you want to post your artwork then click start, it itself will take a picture after 7 seconds, then click enter to enter your artwork. If you want try again then click start again</p>
+        <h4>Take your picture here -</h4>
+        <button class="btn btn-info" onclick="start()">START</button>
+        <div class="div">
+            <div id="camera"></div>
+        </div>
+        <br>
+        <hr>
+        <h3>Your taken picture will be displayed here</h3>
+        <img id="image">
+        <p>Don't forget to type your name and title before you click enter!</p>
+        <input type="text" id="artist_name" placeholder="Name">
+        <input type="text" id="title" placeholder="Title">
+        <button class="btn btn-success" onclick="enter()">ENTER</button>
+        <hr>
+        <div id="wall" class="div"></div>
+        </center>
+    </body>
+    <script src="main.js"></script>
+</html>
